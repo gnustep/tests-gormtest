@@ -159,6 +159,13 @@
 	);
 	Super = NSBrowser;
     };
+    GSButtonCell = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSButtonCell;
+    };
     GSColorWell = {
 	Actions = (
 	);

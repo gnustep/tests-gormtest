@@ -259,6 +259,7 @@
   [panel setDelegate: self];
   [panel runModal];
 #endif
+  [self center];
 }
 
 
