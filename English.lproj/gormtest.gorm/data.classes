@@ -215,6 +215,13 @@
 	);
 	Super = NSProgressIndicator;
     };
+    GSScrollView = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSScrollView;
+    };
     GSSlider = {
 	Actions = (
 	);
