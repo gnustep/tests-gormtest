@@ -142,6 +142,13 @@
 	);
 	Super = NSObject;
     };
+    GSColorWell = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSColorWell;
+    };
     GSImageView = {
 	Actions = (
 	);
@@ -162,6 +169,20 @@
 	Outlets = (
 	);
 	Super = NSOutlineView;
+    };
+    GSProgressIndicator = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSProgressIndicator;
+    };
+    GSSlider = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSSlider;
     };
     GSStepper = {
 	Actions = (

@@ -1,4 +1,4 @@
 #include <AppKit/AppKit.h>
 
-@interface GSStepper : NSStepper
+@interface GSSlider : NSSlider
 @end
