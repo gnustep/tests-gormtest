@@ -1,4 +1,14 @@
 {
+    AppDelegate = {
+	Actions = (
+	);
+	Outlets = (
+	    window,
+	    menu,
+	    owner
+	);
+	Super = NSObject;
+    };
     FirstResponder = {
 	Actions = (
 	    "activateContextHelpMode:",
