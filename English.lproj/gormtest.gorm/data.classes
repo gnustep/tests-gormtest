@@ -142,6 +142,13 @@
 	);
 	Super = NSObject;
     };
+    GSBrowser = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSBrowser;
+    };
     GSColorWell = {
 	Actions = (
 	);
@@ -149,12 +156,26 @@
 	);
 	Super = NSColorWell;
     };
+    GSComboBox = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSComboBox;
+    };
     GSImageView = {
 	Actions = (
 	);
 	Outlets = (
 	);
 	Super = NSImageView;
+    };
+    GSMenu = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSMenu;
     };
     GSMenuItem = {
 	Actions = (
