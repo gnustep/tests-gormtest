@@ -191,6 +191,13 @@
 	);
 	Super = NSOutlineView;
     };
+    GSPopUpButton = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSPopUpButton;
+    };
     GSProgressIndicator = {
 	Actions = (
 	);
@@ -204,6 +211,13 @@
 	Outlets = (
 	);
 	Super = NSSlider;
+    };
+    GSSplitView = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSSplitView;
     };
     GSStepper = {
 	Actions = (
