@@ -42,6 +42,8 @@
 
 #define SHRINKFACTOR 70
 
+// #define TEST_REPORT7877
+
 @implementation LoginWindow
 - (id)initWithContentRect:(NSRect)contentRect
 		styleMask:(unsigned int)styleMask
@@ -252,8 +254,43 @@
 
 - (void) awakeFromNib
 {
-  NSLog(@" %@", [[NSApp mainMenu] description]);
+#ifdef TEST_REPORT7877
+  NSSavePanel *panel = [NSSavePanel savePanel];
+  [panel setDelegate: self];
+  [panel runModal];
+#endif
 }
+
+
+- (BOOL) panel: (id)sender isValidFilename: (NSString*)filename
+{
+  NSLog(@"panel:isValidFilename: called");
+  return YES;
+}
+
+- (NSComparisonResult) panel: (id)sender
+	     compareFilename: (NSString *)filename1
+			with: (NSString *)filename2
+	       caseSensitive: (BOOL)caseSensitive
+{
+  NSLog(@"panel:compareFilename:with:caseSensitive:");
+  return NSOrderedSame;
+
+}	 
+- (BOOL) panel: (id)sender shouldShowFilename: (NSString *)filename
+{
+  NSLog(@"panel:shouldShowFileName:");
+  return YES;
+}
+
+- (NSString *)panel: (id)sender
+userEnteredFilename: (NSString *)fileName
+          confirmed: (BOOL)okFlag
+{
+  NSLog(@"panel:userEnteredFilename:confirmed:");
+  return fileName;
+}
+
 @end
 
 
