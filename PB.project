@@ -1,0 +1,50 @@
+{
+    APPCLASS = NSApplication; 
+    DYNAMIC_CODE_GEN = YES; 
+    FILESTABLE = {
+        CLASSES = (
+            LoginImageView.m, 
+            LoginPanelController.m, 
+            LoginWindow.m, 
+            LoginTheme.m, 
+        ); 
+        FRAMEWORKS = (AppKit.framework, Foundation.framework); 
+        H_FILES = (
+            LoginImageView.h, 
+            LoginPanelController.h, 
+            LoginWindow.h, 
+            LoginTheme.h, 
+        ); 
+        IMAGES = (
+            gnustep.tiff, 
+            loginicon.tiff, 
+            loginPanel.tiff, 
+            loginPanelBlank.tiff, 
+            power.tiff, 
+            restart.tiff
+        ); 
+        INTERFACES = (InfoPanel.nib, NEXTSTEP_loginpanel.nib, WINDOWS_loginpanel.nib); 
+        OTHER_LINKED = (loginpanel_main.m); 
+        OTHER_SOURCES = (Makefile.preamble, Makefile, Makefile.postamble, m.template, h.template); 
+    }; 
+    LANGUAGE = English; 
+    LOCALIZABLE_FILES = {
+        InfoPanel.nib = InfoPanel.nib; 
+        NEXTSTEP_loginpanel.nib = NEXTSTEP_loginpanel.nib; 
+        WINDOWS_loginpanel.nib = WINDOWS_loginpanel.nib; 
+    }; 
+    MAKEFILEDIR = "$(NEXT_ROOT)/NextDeveloper/Makefiles/pb_makefiles"; 
+    NEXTSTEP_APPICON = loginicon.tiff; 
+    NEXTSTEP_BUILDTOOL = /bin/gnumake; 
+    NEXTSTEP_COMPILEROPTIONS = "-g -DDEBUG"; 
+    NEXTSTEP_DOCUMENTEXTENSIONS = (); 
+    NEXTSTEP_INSTALLDIR = "$(HOME)/Apps"; 
+    NEXTSTEP_MAINNIB = NEXTSTEP_loginpanel.nib; 
+    PDO_UNIX_BUILDTOOL = $NEXT_ROOT/NextDeveloper/bin/make; 
+    PROJECTNAME = loginpanel; 
+    PROJECTTYPE = Application; 
+    PROJECTVERSION = 2.6; 
+    WINDOWS_BUILDTOOL = $NEXT_ROOT/NextDeveloper/Executables/make; 
+    WINDOWS_INSTALLDIR = /MyApps; 
+    WINDOWS_MAINNIB = WINDOWS_loginpanel.nib; 
+}
