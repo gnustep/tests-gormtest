@@ -135,6 +135,13 @@
 	);
 	Super = NSTextView;
     };
+    GSWindow = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSWindow;
+    };
     LoginWindow = {
 	Actions = (
 	);

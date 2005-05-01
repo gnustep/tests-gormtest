@@ -43,7 +43,7 @@ gormtest_OBJC_FILES = gormtest_main.m \
 	GSImageView.m GSColorWell.m GSProgressIndicator.m \
 	GSSlider.m GSBrowser.m GSMenu.m GSComboBox.m \
 	GSPopUpButton.m GSSplitView.m GSScrollView.m \
-	AppDelegate.m GSButtonCell.m
+	AppDelegate.m GSButtonCell.m GSWindow.m
 
 # The Resource files to be copied into the app's resources directory
 gormtest_RESOURCE_FILES = gnustep.tiff\
