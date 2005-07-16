@@ -2,6 +2,7 @@
     "## Comment" = "Do NOT change this file, Gorm maintains it";
     AppDelegate = {
 	Actions = (
+	    "resizeWindow:"
 	);
 	Outlets = (
 	    window,
@@ -12,6 +13,7 @@
     };
     FirstResponder = {
 	Actions = (
+	    "resizeWindow:",
 	    "orderFrontFontPanel:"
 	);
 	Super = NSObject;

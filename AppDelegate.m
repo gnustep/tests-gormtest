@@ -27,9 +27,18 @@
 
 -(void) applicationDidFinishLaunching: (NSNotification *)notif
 {
-  NSLog(@"Application started");
+  NSLog(@"============ Application started =============");
 }
 
+- (void) resizeWindow: (id)sender
+{
+  NSRect frame = [window frame];
+
+  frame.size.width += 100;
+
+  NSLog(@"Resizing");
+  [window setFrame: frame display: YES];
+}
 @end
 
 

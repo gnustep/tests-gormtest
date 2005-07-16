@@ -30,6 +30,8 @@
   id owner;
   id menu;
 }
+
+- (void) resizeWindow: (id)sender;
 @end
 
 
