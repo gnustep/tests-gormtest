@@ -34,9 +34,12 @@
 {
   NSRect frame = [window frame];
 
-  frame.size.width += 100;
-
   NSLog(@"Resizing");
+  frame.size.width += 50;
+  frame.size.height += 50;
+  frame.origin.x -= 25;
+  frame.origin.y -= 25;
+
   [window setFrame: frame display: YES];
 }
 @end
