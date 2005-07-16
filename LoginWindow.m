@@ -224,6 +224,7 @@
 
 - (void)displayHostname
 {
+  /*
   char hostname[256], displayname[256];
   int  namelen = 256, index = 0;
   NSString *host_name = nil;
@@ -237,6 +238,7 @@
   displayname[index] = 0;
   host_name = [NSString stringWithCString: displayname];
   [hostnameText setStringValue: host_name];
+  */
 }
 
 - (void)initializeInterface
