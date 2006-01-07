@@ -28,7 +28,9 @@
 
 GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
 
-gormtest_MAIN_MODEL_FILE = gormtest.gorm
+# gormtest_MAIN_MODEL_FILE = gormtest.gorm
+# gormtest_MAIN_MODEL_FILE = customview.nib
+gormtest_MAIN_MODEL_FILE = viewtemplate.nib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -49,6 +51,8 @@ gormtest_OBJC_FILES = gormtest_main.m \
 gormtest_RESOURCE_FILES = gnustep.tiff\
                    loginicon.tiff \
                    English.lproj/gormtest.gorm \
+                   English.lproj/customview.nib \
+                   English.lproj/viewtemplate.nib
 
 
 -include GNUmakefile.preamble
