@@ -1,0 +1,8 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GSBox; LANGUAGE = ObjC; SUPERCLASS = NSBox; }, 
+        {CLASS = MyTestButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }
+    ); 
+    IBVersion = 1; 
+}
