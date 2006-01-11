@@ -30,7 +30,13 @@ GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
 
 # gormtest_MAIN_MODEL_FILE = gormtest.gorm
 # gormtest_MAIN_MODEL_FILE = customview.nib
-gormtest_MAIN_MODEL_FILE = viewtemplate.nib
+# gormtest_MAIN_MODEL_FILE = viewtemplate.nib
+# gormtest_MAIN_MODEL_FILE = normal.nib
+# gormtest_MAIN_MODEL_FILE = box.nib
+# gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
+# gormtest_MAIN_MODEL_FILE = textview.nib
+# gormtest_MAIN_MODEL_FILE = textview2.nib
+gormtest_MAIN_MODEL_FILE = busybox.nib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -45,15 +51,20 @@ gormtest_OBJC_FILES = gormtest_main.m \
 	GSImageView.m GSColorWell.m GSProgressIndicator.m \
 	GSSlider.m GSBrowser.m GSMenu.m GSComboBox.m \
 	GSPopUpButton.m GSSplitView.m GSScrollView.m \
-	AppDelegate.m GSButtonCell.m GSWindow.m
+	AppDelegate.m GSButtonCell.m GSWindow.m GSBox.m
 
 # The Resource files to be copied into the app's resources directory
 gormtest_RESOURCE_FILES = gnustep.tiff\
                    loginicon.tiff \
                    English.lproj/gormtest.gorm \
                    English.lproj/customview.nib \
-                   English.lproj/viewtemplate.nib
-
+                   English.lproj/viewtemplate.nib \
+                   English.lproj/normal.nib \
+                   English.lproj/box.nib \
+                   English.lproj/viewtemplate2.nib \
+                   English.lproj/textview.nib \
+                   English.lproj/textview2.nib \
+                   English.lproj/busybox.nib 
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/application.make
