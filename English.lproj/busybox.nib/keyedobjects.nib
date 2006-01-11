@@ -4401,7 +4401,7 @@
 			<key>$classname</key>
 			<string>NSView</string>
 		</dict>
-		<string>{{336, 199}, {130, 83}}</string>
+		<string>{{336, 190}, {130, 83}}</string>
 		<string>{0, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -4544,7 +4544,7 @@
 			</dict>
 		</dict>
 		<string>{{10, 33}, {118, 45}}</string>
-		<string>{{332, 110}, {138, 91}}</string>
+		<string>{{332, 93}, {138, 91}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -4763,7 +4763,7 @@
 		<string>Apple PICT pasteboard type</string>
 		<string>NSFilenamesPboardType</string>
 		<string>Apple PNG pasteboard type</string>
-		<string>{{336, 53}, {62, 62}}</string>
+		<string>{{336, 28}, {62, 62}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
