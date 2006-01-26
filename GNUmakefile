@@ -36,9 +36,9 @@ GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
 # gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
 # gormtest_MAIN_MODEL_FILE = textview.nib
 # gormtest_MAIN_MODEL_FILE = textview2.nib
-# gormtest_MAIN_MODEL_FILE = busybox.nib
+gormtest_MAIN_MODEL_FILE = busybox.nib
 # gormtest_MAIN_MODEL_FILE = menutest.nib
-gormtest_MAIN_MODEL_FILE = colorandtable.nib
+# gormtest_MAIN_MODEL_FILE = colorandtable.nib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
