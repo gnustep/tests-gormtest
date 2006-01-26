@@ -5,7 +5,7 @@
 @end
 
 @implementation MyTableDataSource
-- (int) numberOfRowsInTableView
+- (int) numberOfRowsInTableView: (NSTableView *)tv
 {
   return 10;
 }
