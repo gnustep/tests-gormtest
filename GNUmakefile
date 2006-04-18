@@ -36,9 +36,9 @@ GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
 # gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
 # gormtest_MAIN_MODEL_FILE = textview.nib
 # gormtest_MAIN_MODEL_FILE = textview2.nib
-gormtest_MAIN_MODEL_FILE = busybox.nib
+#gormtest_MAIN_MODEL_FILE = busybox.nib
 # gormtest_MAIN_MODEL_FILE = menutest.nib
-# gormtest_MAIN_MODEL_FILE = colorandtable.nib
+gormtest_MAIN_MODEL_FILE = colorandtable.nib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -57,8 +57,7 @@ gormtest_OBJC_FILES = gormtest_main.m \
 	MyTableDataSource.m
 
 # The Resource files to be copied into the app's resources directory
-gormtest_RESOURCE_FILES = gnustep.tiff\
-                   loginicon.tiff \
+gormtest_RESOURCE_FILES = loginicon.tiff \
                    English.lproj/gormtest.gorm \
                    English.lproj/customview.nib \
                    English.lproj/viewtemplate.nib \
