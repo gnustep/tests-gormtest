@@ -36,9 +36,16 @@ GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
 # gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
 # gormtest_MAIN_MODEL_FILE = textview.nib
 # gormtest_MAIN_MODEL_FILE = textview2.nib
-#gormtest_MAIN_MODEL_FILE = busybox.nib
+gormtest_MAIN_MODEL_FILE = busybox.nib
 # gormtest_MAIN_MODEL_FILE = menutest.nib
-gormtest_MAIN_MODEL_FILE = colorandtable.nib
+# gormtest_MAIN_MODEL_FILE = colorandtable.nib
+# gormtest_MAIN_MODEL_FILE = scrollview.nib
+# gormtest_MAIN_MODEL_FILE = table.gorm
+# gormtest_MAIN_MODEL_FILE = buttons.nib
+# gormtest_MAIN_MODEL_FILE = bigtext.nib
+# gormtest_MAIN_MODEL_FILE = textfield.nib
+#gormtest_MAIN_MODEL_FILE = tvonly.nib
+#gormtest_MAIN_MODEL_FILE = gormtext.gorm
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -69,6 +76,13 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
                    English.lproj/busybox.nib \
                    English.lproj/menutest.nib \
                    English.lproj/colorandtable.nib \
+                   English.lproj/scrollview.nib \
+                   English.lproj/buttons.nib \
+                   English.lproj/table.gorm \
+		   English.lproj/bigtext.nib \
+		   English.lproj/textfield.nib \
+		   English.lproj/tvonly.nib \
+		   English.lproj/gormtext.gorm
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/application.make
