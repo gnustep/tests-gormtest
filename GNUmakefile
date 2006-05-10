@@ -28,24 +28,27 @@
 
 GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
 
-# gormtest_MAIN_MODEL_FILE = gormtest.gorm
-# gormtest_MAIN_MODEL_FILE = customview.nib
-# gormtest_MAIN_MODEL_FILE = viewtemplate.nib
-# gormtest_MAIN_MODEL_FILE = normal.nib
-# gormtest_MAIN_MODEL_FILE = box.nib
-# gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
-# gormtest_MAIN_MODEL_FILE = textview.nib
-# gormtest_MAIN_MODEL_FILE = textview2.nib
+#gormtest_MAIN_MODEL_FILE = gormtest.gorm
+#gormtest_MAIN_MODEL_FILE = customview.nib
+#gormtest_MAIN_MODEL_FILE = viewtemplate.nib
+#gormtest_MAIN_MODEL_FILE = normal.nib
+#gormtest_MAIN_MODEL_FILE = box.nib
+#gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
+#gormtest_MAIN_MODEL_FILE = textview.nib
+#gormtest_MAIN_MODEL_FILE = textview2.nib
 gormtest_MAIN_MODEL_FILE = busybox.nib
-# gormtest_MAIN_MODEL_FILE = menutest.nib
-# gormtest_MAIN_MODEL_FILE = colorandtable.nib
-# gormtest_MAIN_MODEL_FILE = scrollview.nib
-# gormtest_MAIN_MODEL_FILE = table.gorm
-# gormtest_MAIN_MODEL_FILE = buttons.nib
-# gormtest_MAIN_MODEL_FILE = bigtext.nib
-# gormtest_MAIN_MODEL_FILE = textfield.nib
+#gormtest_MAIN_MODEL_FILE = menutest.nib
+#gormtest_MAIN_MODEL_FILE = colorandtable.nib
+#gormtest_MAIN_MODEL_FILE = scrollview.nib
+#gormtest_MAIN_MODEL_FILE = table.gorm
+#gormtest_MAIN_MODEL_FILE = buttons.nib
+#gormtest_MAIN_MODEL_FILE = bigtext.nib
+#gormtest_MAIN_MODEL_FILE = textfield.nib
 #gormtest_MAIN_MODEL_FILE = tvonly.nib
 #gormtest_MAIN_MODEL_FILE = gormtext.gorm
+#gormtest_MAIN_MODEL_FILE = ovonly.nib
+#gormtest_MAIN_MODEL_FILE = ovgorm.gorm
+#gormtest_MAIN_MODEL_FILE = sliders.nib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -61,7 +64,8 @@ gormtest_OBJC_FILES = gormtest_main.m \
 	GSSlider.m GSBrowser.m GSMenu.m GSComboBox.m \
 	GSPopUpButton.m GSSplitView.m GSScrollView.m \
 	AppDelegate.m GSButtonCell.m GSWindow.m GSBox.m \
-	MyTableDataSource.m
+	MyTableDataSource.m MyOutlineDataSource.m \
+	MyBrowserDelegate.m
 
 # The Resource files to be copied into the app's resources directory
 gormtest_RESOURCE_FILES = loginicon.tiff \
@@ -82,6 +86,9 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
 		   English.lproj/bigtext.nib \
 		   English.lproj/textfield.nib \
 		   English.lproj/tvonly.nib \
+		   English.lproj/ovonly.nib \
+		   English.lproj/ovgorm.gorm \
+		   English.lproj/sliders.nib \
 		   English.lproj/gormtext.gorm
 
 -include GNUmakefile.preamble

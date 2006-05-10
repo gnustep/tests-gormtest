@@ -5,6 +5,16 @@
 @end
 
 @implementation MyTableDataSource
+- (id) init
+{
+  self = [super init];
+  if(self != nil)
+    {
+      NSLog(@"Outline data source initialized.");
+    }
+  return self;
+}
+
 - (int) numberOfRowsInTableView: (NSTableView *)tv
 {
   return 100;
