@@ -49,6 +49,8 @@ gormtest_MAIN_MODEL_FILE = busybox.nib
 #gormtest_MAIN_MODEL_FILE = ovonly.nib
 #gormtest_MAIN_MODEL_FILE = ovgorm.gorm
 #gormtest_MAIN_MODEL_FILE = sliders.nib
+#gormtest_MAIN_MODEL_FILE = switch.nib
+#gormtest_MAIN_MODEL_FILE = textfields.nib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -89,7 +91,9 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
 		   English.lproj/ovonly.nib \
 		   English.lproj/ovgorm.gorm \
 		   English.lproj/sliders.nib \
-		   English.lproj/gormtext.gorm
+		   English.lproj/gormtext.gorm \
+		   English.lproj/switch.nib \
+		   English.lproj/textfields.nib
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/application.make
