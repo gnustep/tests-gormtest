@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GSBox; LANGUAGE = ObjC; SUPERCLASS = NSBox; }, 
+        {CLASS = GSTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = MyBrowserDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyOutlineDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyTableDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}
