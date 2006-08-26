@@ -37,7 +37,11 @@ GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
 #gormtest_MAIN_MODEL_FILE = textview.nib
 #gormtest_MAIN_MODEL_FILE = textview2.nib
 gormtest_MAIN_MODEL_FILE = busybox.nib
+#gormtest_MAIN_MODEL_FILE = busybox.gorm
 #gormtest_MAIN_MODEL_FILE = menutest.nib
+#gormtest_MAIN_MODEL_FILE = empty.nib
+#gormtest_MAIN_MODEL_FILE = window.nib
+#gormtest_MAIN_MODEL_FILE = view.nib
 #gormtest_MAIN_MODEL_FILE = colorandtable.nib
 #gormtest_MAIN_MODEL_FILE = scrollview.nib
 #gormtest_MAIN_MODEL_FILE = table.gorm
@@ -51,6 +55,13 @@ gormtest_MAIN_MODEL_FILE = busybox.nib
 #gormtest_MAIN_MODEL_FILE = sliders.nib
 #gormtest_MAIN_MODEL_FILE = switch.nib
 #gormtest_MAIN_MODEL_FILE = textfields.nib
+#gormtest_MAIN_MODEL_FILE = drawer.nib
+#gormtest_MAIN_MODEL_FILE = image.nib
+#gormtest_MAIN_MODEL_FILE = viewonly.nib
+#gormtest_MAIN_MODEL_FILE = normalmenu.nib
+#gormtest_MAIN_MODEL_FILE = buttongs.nib
+#gormtest_MAIN_MODEL_FILE = tabbrowser.nib
+#gormtest_MAIN_MODEL_FILE = controls.nib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -93,7 +104,19 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
 		   English.lproj/sliders.nib \
 		   English.lproj/gormtext.gorm \
 		   English.lproj/switch.nib \
-		   English.lproj/textfields.nib
+		   English.lproj/textfields.nib \
+		   English.lproj/drawer.nib \
+		   English.lproj/image.nib \
+		   English.lproj/empty.nib \
+		   English.lproj/window.nib \
+		   English.lproj/view.nib \
+		   English.lproj/viewonly.nib \
+		   English.lproj/normalmenu.nib \
+		   English.lproj/buttongs.nib \
+		   English.lproj/tabbrowser.nib \
+		   English.lproj/controls.nib
+
+#                   English.lproj/busybox.gorm \
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/application.make

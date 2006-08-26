@@ -33,5 +33,8 @@
 #include <AppKit/AppKit.h>
 
 int main(int argc, const char *argv[]) {
+
+   [NSObject enableDoubleReleaseCheck: YES];
+
    return NSApplicationMain(argc, argv);
 }

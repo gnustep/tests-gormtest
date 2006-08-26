@@ -10,7 +10,7 @@
   self = [super init];
   if(self != nil)
     {
-      NSLog(@"Outline data source initialized.");
+      NSLog(@"Table data source initialized.");
     }
   return self;
 }
