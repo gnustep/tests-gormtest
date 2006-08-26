@@ -1,0 +1,15 @@
+{
+    IBClasses = (
+	{
+	    CLASS = GSBox;
+	    LANGUAGE = ObjC;
+	    SUPERCLASS = NSBox;
+	},
+	{
+	    CLASS = FirstResponder;
+	    LANGUAGE = ObjC;
+	    SUPERCLASS = NSObject;
+	}
+    );
+    IBVersion = 1;
+}
