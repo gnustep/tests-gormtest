@@ -26,6 +26,7 @@
 #  If not, write to the Free Software Foundation,
 #  59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
+gormtest_MAIN_MODEL_FILE = testnew.gorm
 #gormtest_MAIN_MODEL_FILE = gormtest.gorm
 #gormtest_MAIN_MODEL_FILE = customview.nib
 #gormtest_MAIN_MODEL_FILE = viewtemplate.nib
@@ -34,7 +35,7 @@
 #gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
 #gormtest_MAIN_MODEL_FILE = textview.nib
 #gormtest_MAIN_MODEL_FILE = textview2.nib
-gormtest_MAIN_MODEL_FILE = busybox.nib
+#gormtest_MAIN_MODEL_FILE = busybox.nib
 #gormtest_MAIN_MODEL_FILE = busybox.gorm
 #gormtest_MAIN_MODEL_FILE = menutest.nib
 #gormtest_MAIN_MODEL_FILE = empty.nib
@@ -80,6 +81,7 @@ gormtest_OBJC_FILES = gormtest_main.m \
 
 # The Resource files to be copied into the app's resources directory
 gormtest_RESOURCE_FILES = loginicon.tiff \
+                   English.lproj/testnew.gorm \
                    English.lproj/gormtest.gorm \
                    English.lproj/customview.nib \
                    English.lproj/viewtemplate.nib \
