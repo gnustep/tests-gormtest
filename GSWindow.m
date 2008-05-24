@@ -9,7 +9,11 @@
   // It was neccesary to override this method to get the borderless
   // window since it is not available from InterfaceBuilder.
   NSLog(@"GSWindow class has been instantiated... -- DESIGNATED INIT CALLED.");
-  return self;
+  // return self;
+  return [super initWithContentRect: contentRect
+		styleMask: styleMask
+		backing: bufferingType
+		defer: flag];
 }
 
 - (id) initWithCoder: (NSCoder *)coder

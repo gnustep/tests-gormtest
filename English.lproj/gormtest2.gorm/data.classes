@@ -1,0 +1,17 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    GSWindow = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSWindow;
+    };
+    LoginWindow = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSWindow;
+    };
+}

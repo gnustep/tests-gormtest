@@ -26,8 +26,9 @@
 #  If not, write to the Free Software Foundation,
 #  59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
-gormtest_MAIN_MODEL_FILE = testnew.gorm
-#gormtest_MAIN_MODEL_FILE = gormtest.gorm
+#gormtest_MAIN_MODEL_FILE = testnew.gorm
+gormtest_MAIN_MODEL_FILE = gormtest.gorm
+#gormtest_MAIN_MODEL_FILE = gormtest2.gorm
 #gormtest_MAIN_MODEL_FILE = customview.nib
 #gormtest_MAIN_MODEL_FILE = viewtemplate.nib
 #gormtest_MAIN_MODEL_FILE = normal.nib
@@ -114,7 +115,8 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
 		   English.lproj/normalmenu.nib \
 		   English.lproj/buttongs.nib \
 		   English.lproj/tabbrowser.nib \
-		   English.lproj/controls.nib
+		   English.lproj/controls.nib \
+		   English.lproj/gormtest2.gorm
 
 #                   English.lproj/busybox.gorm \
 
