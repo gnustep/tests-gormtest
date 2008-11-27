@@ -32,6 +32,20 @@
 
 #include <AppKit/AppKit.h>
 
+@interface NSWindow (GormTestDebug)
+@end
+
+@implementation NSWindow (GormTestDebug)
+- (void) release
+{
+  if([self class] == [NSWindow class])
+    {
+      NSLog(@"Released");
+    }
+  [super release];
+}
+@end
+
 int main(int argc, const char *argv[]) {
 
    [NSObject enableDoubleReleaseCheck: YES];

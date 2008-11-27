@@ -1,3 +1,10 @@
+2008-11-26 21:32-EST Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* English.lproj/securetextfield.nib: New nib file
+	to check secure text fields.
+	* GNUmakefile: Include new nib.
+	* gormtest_main.m: Add code to debug NSWindow problems.
+
 2007-07-26 10:30-EDT Gregory John Casamento <greg_casamento@yahoo.com>
 
 	* English.lproj/testnew.gorm
