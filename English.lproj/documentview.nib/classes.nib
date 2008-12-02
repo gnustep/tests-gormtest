@@ -1,0 +1,8 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GSImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {CLASS = GSTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

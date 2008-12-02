@@ -40,7 +40,7 @@
 {
   if([self class] == [NSWindow class])
     {
-      NSLog(@"Released");
+      NSLog(@"Released: %@", self);
     }
   [super release];
 }

@@ -26,7 +26,9 @@
 #  If not, write to the Free Software Foundation,
 #  59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
-gormtest_MAIN_MODEL_FILE = securetextfield.nib
+gormtest_MAIN_MODEL_FILE = documentview.nib
+#gormtest_MAIN_MODEL_FILE = testmatrix.nib
+#gormtest_MAIN_MODEL_FILE = securetextfield.nib
 #gormtest_MAIN_MODEL_FILE = testnew.gorm
 #gormtest_MAIN_MODEL_FILE = gormtest.gorm
 #gormtest_MAIN_MODEL_FILE = urltest.gorm
@@ -120,7 +122,9 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
 		   English.lproj/tabbrowser.nib \
 		   English.lproj/controls.nib \
 		   English.lproj/gormtest2.gorm \
-		   English.lproj/securetextfield.nib
+		   English.lproj/securetextfield.nib \
+                   English.lproj/testmatrix.nib \
+	           English.lproj/documentview.nib
 
 #                   English.lproj/busybox.gorm \
 
