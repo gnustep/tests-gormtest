@@ -42,7 +42,8 @@
 #gormtest_MAIN_MODEL_FILE = viewtemplate2.nib
 #gormtest_MAIN_MODEL_FILE = textview.nib
 #gormtest_MAIN_MODEL_FILE = textview2.nib
-gormtest_MAIN_MODEL_FILE = busybox.nib
+#gormtest_MAIN_MODEL_FILE = busybox.nib
+gormtest_MAIN_MODEL_FILE = Application.nib
 #gormtest_MAIN_MODEL_FILE = busybox.gorm
 #gormtest_MAIN_MODEL_FILE = menutest.nib
 #gormtest_MAIN_MODEL_FILE = empty.nib
@@ -128,7 +129,8 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
                    English.lproj/testmatrix.nib \
 	           English.lproj/documentview.nib \
 	           English.lproj/onemenu.nib \
-	           English.lproj/popup.nib 
+	           English.lproj/popup.nib \
+	           English.lproj/Application.nib 
 
 #                   English.lproj/busybox.gorm \
 
