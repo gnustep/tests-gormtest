@@ -43,7 +43,7 @@
 #gormtest_MAIN_MODEL_FILE = textview.nib
 #gormtest_MAIN_MODEL_FILE = textview2.nib
 #gormtest_MAIN_MODEL_FILE = busybox.nib
-gormtest_MAIN_MODEL_FILE = Application.nib
+#gormtest_MAIN_MODEL_FILE = Application.nib
 #gormtest_MAIN_MODEL_FILE = busybox.gorm
 #gormtest_MAIN_MODEL_FILE = menutest.nib
 #gormtest_MAIN_MODEL_FILE = empty.nib
@@ -69,6 +69,7 @@ gormtest_MAIN_MODEL_FILE = Application.nib
 #gormtest_MAIN_MODEL_FILE = buttongs.nib
 #gormtest_MAIN_MODEL_FILE = tabbrowser.nib
 #gormtest_MAIN_MODEL_FILE = controls.nib
+gormtest_MAIN_MODEL_FILE = MainMenu.xib
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
@@ -130,7 +131,8 @@ gormtest_RESOURCE_FILES = loginicon.tiff \
 	           English.lproj/documentview.nib \
 	           English.lproj/onemenu.nib \
 	           English.lproj/popup.nib \
-	           English.lproj/Application.nib 
+	           English.lproj/Application.nib \
+	           English.lproj/MainMenu.xib 
 
 #                   English.lproj/busybox.gorm \
 
