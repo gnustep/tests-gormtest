@@ -86,7 +86,7 @@ gormtest_OBJC_FILES = gormtest_main.m \
 	GSPopUpButton.m GSSplitView.m GSScrollView.m \
 	AppDelegate.m GSButtonCell.m GSWindow.m GSBox.m \
 	MyTableDataSource.m MyOutlineDataSource.m \
-	MyBrowserDelegate.m
+	MyBrowserDelegate.m GSButton.m
 
 # The Resource files to be copied into the app's resources directory
 gormtest_RESOURCE_FILES = loginicon.tiff \
